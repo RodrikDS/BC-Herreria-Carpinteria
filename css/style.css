@@ -1,0 +1,11 @@
+
+    
+.navbar-brand img {
+height: 64px;
+}
+.carousel-inner img {
+    object-fit: cover;
+    height: 70vh;
+    width: 100%;
+    justify-content: center;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Hierro & Madera</h1>
+        
+        <nav>
+            <ul>
+                <li>  
+                    <a href="../index.html">Inicio</a>  
+                </li>
+                <li>  
+                    <a href="herreria.html">Herreria</a>  
+                </li>
+                <li>  
+                    <a href="carpinteria.html">Madera</a>  
+                </li>
+                <li>  
+                    <a href="productos.html">Productos</a>  
+                </li>
+                <li>  
+                    <a href="contacto.html">Contacto</a>  
+                </li>                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Contacto</h1>
+            <!-- usando ../ salgo de la carpeta en la que estoy. si son varios niveles atras usamos ../../ las veces necesarias -->
+            <a href="../index.html">Volver al inicio</a>
+        
+            <!-- Formularios  -->
+            <form>
+                <!-- Dentro de un formulario tenemos que agregar los diferentes campos que queremos que el usuario complete -->
+                <!-- Input -->
+                <!-- Label = Define formalmente a cada elemento del formulario -->
+                <label for="nombre">Nombre y Apellido:</label>
+                <input type="text" name="nombre" placeholder="Juan Perez">
+                <br>
+                <!-- Tipo email -->
+                <label for="email">Email:</label>
+                <input type="email" name="email">
+                <br>
+                <!-- Tipo password -->
+                <label for="consulta">Tipo de consulta:</label>
+                <input type="consulta">
+                <br>
+        
+                <!-- Caja de texto para mensaje -->
+                <textarea name="mensaje" cols="30" rows="10"></textarea>
+        
+                <!-- Tenemos 3 tipos de botones -->
+                <!-- Tipo submit = enviar -->
+                <input type="submit" value="Enviar Form">
+        
+                <!-- Tipo reset -->
+                <input type="reset" value="Resetear Form">
+                       
+                <!-- Input tipo checkbox -->
+                <label for="check">Aceptas terminos y condiciones?</label>
+                <input type="checkbox" name="check" id="check">
+                       
+            </form> 
+        </section>
+    </main>
+    <footer>
+        
+        <ul>
+            <li>logo red social</li>
+            <li>logo red social</li>
+            <li>logo red social</li>
+        </ul>
+        <p>Derechos reservado by Rodrik Diaz</p>
+    </footer>
+</body>
+</html>
