@@ -4,80 +4,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+
     <title>contacto</title>
 </head>
 <body>
     <header>
-        <h1>Bienvenido a Hierro & Madera</h1>
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand-1" href="#">
+                <img src="../img/bc-logo.png" alt="logo">
+              </a>
+              <div class="row pb-4 pt-4 titulos text-center">
+                <h1 class="mb-8 text-white text-center">Bienvenido a Hierro & Madera</h1>
+            </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav text-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/herreria.html">Herreria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/carpinteria.html">Madera</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+               </div>
+            </div>
+            
+          </nav>
+
+          <div class="row pb-4 pt-4 titulos text-center">
+            <h1 class="mb-8">Forjado en Hierro, revestido en Madera</h1>
+        </div>
+
+        <div class="row pb-4 pt-4 titulos text-center">
+            <h2 class="mb-4">Herreria y Carpinteria de autor</h2>
+        </div>                 
         
-        <nav>
-            <ul>
-                <li>  
-                    <a href="../index.html">Inicio</a>  
-                </li>
-                <li>  
-                    <a href="herreria.html">Herreria</a>  
-                </li>
-                <li>  
-                    <a href="carpinteria.html">Madera</a>  
-                </li>
-                <li>  
-                    <a href="productos.html">Productos</a>  
-                </li>
-                <li>  
-                    <a href="contacto.html">Contacto</a>  
-                </li>                
-            </ul>
-        </nav>
     </header>
+
+
     <main>
+
+        <section>
+            <h1>Galeria</h1>
+              <div class="container-galeria">
+                <img src="../img-contact/alacena-1.jpg" alt="alacena-1">
+                <img src="../img-contact/alacena-2.jpg" alt="alacena-2">
+                <img src="../img-contact/alacena-3.jpg" alt="alacena-3">
+                <img src="../img-contact/chimenea-1.jpg" alt="chimenea-1">
+                <img src="../img-contact/chimenea-2.jpg" alt="chimenea-2">
+                <img src="../img-contact/escalones-1.jpg" alt="escalones-1">
+                <img src="../img-contact/escalones-2.jpg" alt="escalones-2">
+                <img src="../img-contact/escalones-3.jpg" alt="escalones-3">
+                <img src="../img-contact/parrilla-1.jpg" alt="parrilla-1">
+
+
+        </section>
         <section>
             <h1>Contacto</h1>
             <!-- usando ../ salgo de la carpeta en la que estoy. si son varios niveles atras usamos ../../ las veces necesarias -->
             <a href="../index.html">Volver al inicio</a>
-        
-            <!-- Formularios  -->
-            <form>
-                <!-- Dentro de un formulario tenemos que agregar los diferentes campos que queremos que el usuario complete -->
-                <!-- Input -->
-                <!-- Label = Define formalmente a cada elemento del formulario -->
-                <label for="nombre">Nombre y Apellido:</label>
-                <input type="text" name="nombre" placeholder="Juan Perez">
-                <br>
-                <!-- Tipo email -->
-                <label for="email">Email:</label>
-                <input type="email" name="email">
-                <br>
-                <!-- Tipo password -->
-                <label for="consulta">Tipo de consulta:</label>
-                <input type="consulta">
-                <br>
-        
-                <!-- Caja de texto para mensaje -->
-                <textarea name="mensaje" cols="30" rows="10"></textarea>
-        
-                <!-- Tenemos 3 tipos de botones -->
-                <!-- Tipo submit = enviar -->
-                <input type="submit" value="Enviar Form">
-        
-                <!-- Tipo reset -->
-                <input type="reset" value="Resetear Form">
-                       
-                <!-- Input tipo checkbox -->
-                <label for="check">Aceptas terminos y condiciones?</label>
-                <input type="checkbox" name="check" id="check">
-                       
-            </form> 
+            
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Tu mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Presupuesto / Consulta</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+             
         </section>
     </main>
-    <footer>
-        
-        <ul>
-            <li>logo red social</li>
-            <li>logo red social</li>
-            <li>logo red social</li>
-        </ul>
-        <p>Derechos reservado by Rodrik Diaz</p>
+
+    <footer class="text-center">
+        <i class="bi bi-instagram fs-2"></i>
+        <i class="bi bi-facebook fs-2"></i>
+        <i class="bi bi-messenger fs-2"></i>
+        <i class="bi bi-whatsapp fs-2"></i>
+        <i class="bi bi-envelope-at fs-2"></i>
+
     </footer>
+    
+    <p>By RodrikDS</p>  
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
