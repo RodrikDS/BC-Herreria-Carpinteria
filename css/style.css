@@ -1,5 +1,5 @@
 
-    
+
 .navbar-brand img {
 height: 64px;
 }
@@ -9,13 +9,26 @@ height: 64px;
     width: 100%;
     justify-content: center;
 }
-.navbar-brand-1 img {
-    height: 64px;
-}
 
-.container-galeria{
-    display: grid;
+
+img{
+    width: auto;
+    height: auto;
 }
-.container-galeria{
+.gallery {
     display: grid;
-}
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .item {
+    overflow: hidden;
+  }
+  
+  .item img {
+    max-width: 100%;
+    height: auto;
+    
+  }
+  
+  
