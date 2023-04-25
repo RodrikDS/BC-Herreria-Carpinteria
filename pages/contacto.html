@@ -62,7 +62,10 @@
     <main>
 
         <section>
-            <h1 class="align-items-center">Galeria y Contacto</h1>
+          <div class="row pb-4 pt-4 titulos text-center">
+            <h1 class="mb-4">Galeria y Contacto</h1>
+          </div>   
+            
             <div class="container">
                 <div class="galeria">
                     <div class="item">
@@ -91,29 +94,35 @@
         </section>
 
         <section>
-            <h1>Contacto</h1>
+          <div class="row pb-4 pt-4 titulos text-center">
+            <h1 class="mb-4">Contacto</h1>
+          </div> 
+            
             <!-- usando ../ salgo de la carpeta en la que estoy. si son varios niveles atras usamos ../../ las veces necesarias -->
             <a href="../index.html">Volver al inicio</a>
             
-            <div class="mb-3">
+            <section class="form">
+              <div class="formulario mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Tu mail</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="juanperes@ejemplo.com">
               </div>
               <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Presupuesto / Consulta</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
               </div>
               <div>
-                
-               <form action="/submit-form" method="post">
-
-               <button type="submit">Enviar</button>
-               
-               </form>
+                <form action="/submit-form" method="post">
+                  <button type="submit">Enviar</button>
+                </form>
+            </section>
+            
+              
               </div>
              
         </section>
     </main>
+
+  
 
     <footer class="texto">
         <i class="bi bi-instagram fs-2"></i>
