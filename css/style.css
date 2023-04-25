@@ -28,7 +28,11 @@ img{
   .item img {
     max-width: 100%;
     height: auto;
+    transition: transform 0.3s ease;
     
+  }
+  .item:hover img {
+    transform: scale(1.1);
   }
 
   .galeria-herreria {
@@ -44,7 +48,11 @@ img{
   .item img {
     max-width: 100%;
     height: 100%;
+    transition: transform 0.3s ease;
     
+  }
+  .item:hover img {
+    transform: scale(1.1);
   }
 
   .galeria-productos {
@@ -60,7 +68,11 @@ img{
   .item img {
     max-width: 100%;
     height: 100%;
+    transition: transform 0.3s ease;
     
+  }
+  .item:hover img {
+    transform: scale(1.1);
   }
 
   .galeria-carpinteria {
@@ -76,6 +88,20 @@ img{
   .item img {
     max-width: 100%;
     height: 100%;
+    transition: transform 0.3s ease;
+    
+  }
+  .item:hover img {
+    transform: scale(1.1);
+  }
+
+  .texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(29, 127, 163);
+    
     
   }
 
