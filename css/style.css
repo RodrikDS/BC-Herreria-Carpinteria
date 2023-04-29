@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto:wght@300&display=swap');
 
-h1{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-}
-h2{
+h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
 }
 
-p{
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+p {
   font-family:'Poppins', sans-serif;
   font-weight: 300;
   margin-left: 1%;
@@ -27,10 +28,11 @@ height: 64px;
     justify-content: center;
 }
 
-img{
+img {
     width: auto;
     height: auto;
 }
+
 .galeria {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -107,6 +109,7 @@ img{
     transition: transform 0.3s ease;
     
   }
+
   .item:hover img {
     transform: scale(1.1);
   }
@@ -129,21 +132,38 @@ img{
   
   .footer {
     justify-content: center;   
-    background-color: rgb(226, 234, 237); 
+    background-color: rgb(209, 221, 225); 
        
   }
-  .footer-texto{
+  .footer-texto {
     text-align: center;
     font-size: 1.5rem;
     padding: 5px;
     margin-bottom: 2px;
     font-family:'Poppins', sans-serif;
   }
-  .iconos-redes-sociales{
+
+  .iconos-redes-sociales {
     padding: 5px;
-    margin: 2px;
+    margin: 5px;
     transition: all 0,2s ease-in;
   }
+
+  .iconos-redes-sociales a:hover i{
+    color:rgb(23, 15, 15) ;
+    font-size: 1,5rem;
+    transition: all 0,2s ease-in;
+  }
+
+  .derechos-de-autor {
+    text-align:left;
+    font-size: 15px;
+    color: #484444;
+    padding: 15px;
+
+  }
+
+ 
 
   
   
