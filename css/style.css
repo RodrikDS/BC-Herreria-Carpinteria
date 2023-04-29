@@ -113,6 +113,8 @@ img{
 
   .btn {
     justify-content: end;
+    transition: all 0,2s ease-in;
+
   }
 
   .form {
@@ -125,14 +127,25 @@ img{
      margin-left: 35px;
   }
   
-
-  .texto-pie-pagina {
-    display: flex;
-    gap: 10px;
+  .footer {
     justify-content: center;   
-    background-color: rgb(150, 175, 185); 
+    background-color: rgb(226, 234, 237); 
        
   }
+  .footer-texto{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-bottom: 2px;
+    font-family:'Poppins', sans-serif;
+  }
+  .iconos-redes-sociales{
+    padding: 5px;
+    margin: 2px;
+    transition: all 0,2s ease-in;
+  }
+
+  
   
 
 
