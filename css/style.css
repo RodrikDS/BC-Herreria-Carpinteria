@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto:wght@300&display=swap');
 
 body{
-  background-color: #c1cae5;
+  background-color: #dfe3ee;
 }
 
 h1 {
@@ -185,9 +185,10 @@ img {
 
   
   .footer {
-    justify-content: center;   
-    background-color: #f4e5f7; 
-       
+    justify-content: center;
+    background: greenyellow;
+    background-image: linear-gradient(to right, rgb(111, 156, 167), rgb(230, 238, 233));
+              
   }
   .footer-texto {
     text-align: center;
