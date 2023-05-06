@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto:wght@300&display=swap');
 
 body{
-  background-color: rgb(241, 235, 235);
+  background-color: #c1cae5;
 }
 
 h1 {
@@ -178,11 +178,15 @@ img {
     justify-content: center;
 
   }
+  .tendencias{
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
 
   
   .footer {
     justify-content: center;   
-    background-color: rgb(209, 221, 225); 
+    background-color: #f4e5f7; 
        
   }
   .footer-texto {
