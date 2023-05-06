@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto:wght@300&display=swap');
 
 body{
-  background-color: #dfe3ee;
+  background: greenyellow;
+    background-image: linear-gradient(to bottom, rgb(221, 234, 231), #f6e5e7 );
+  
 }
 
 h1 {
