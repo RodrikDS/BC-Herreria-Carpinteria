@@ -12,6 +12,7 @@ body{
 
 h1 {
   color: rgb(70, 70, 126);
+  text-shadow: 2px 2px #dcc7e2;
   font-family: 'Konkhmer Sleokchher', cursive;
   font-weight: 500;
   font-size: 40px;
@@ -216,7 +217,7 @@ img {
   }
   
   .img-beto {
-    width: 40%;
+    width: 25%;
     align-self: center;
   }
 
@@ -234,6 +235,10 @@ img {
   .tendencias{
     margin-top: 40px;
     margin-bottom: 10px;
+  }
+
+  .btn{
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
   }
 
   
@@ -268,6 +273,7 @@ img {
     font-size: 15px;
     color: #484444;
     padding: 15px;
+    
 
   }
 
