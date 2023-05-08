@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Konkhmer+Sleokchher&display=swap');
 
 body{
-  background: greenyellow;
-    background-image: linear-gradient(to bottom, rgb(221, 234, 231), #f6e5e7 );
+  background-image: url("../img/fondo-4.jfif");
+  background-size: cover;
   
+    
 }
 .mi-titulo{
   color:rgb(187, 187, 239);
@@ -238,6 +239,7 @@ img {
   }
 
   .btn{
+    color: rgb(229, 178, 178);
     box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
   }
 
