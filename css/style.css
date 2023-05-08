@@ -214,12 +214,13 @@ img {
 
   .img-beto {
     display: flex;
-    
+    justify-content: center;
+        
   }
   
   .img-beto {
-    width: 25%;
-    align-self: center;
+    margin: 0 10px;
+    
   }
 
   .volver{
