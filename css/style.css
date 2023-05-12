@@ -7,28 +7,37 @@ body{
     
 }
 .mi-titulo{
-  color:rgb(187, 187, 239);
-  text-shadow: 2px 2px #2b7390;
+  color:rgb(97, 119, 142);
+  text-shadow: 2px 2px #b6d5e1;
 }
 
 h1 {
-  color: rgb(70, 70, 126);
-  text-shadow: 2px 2px #dcc7e2;
+  color: rgb(166, 198, 230);
+  text-shadow: 2px 2px #e2dbc7;
   font-family: 'Konkhmer Sleokchher', cursive;
   font-weight: 500;
   font-size: 40px;
 }
 
 h2 {
-  color: rgb(98, 98, 213);
+  color: rgb(93, 93, 137);
   font-family: 'Konkhmer Sleokchher', cursive;
   font-weight: 400;
   font-size: 30px;
 }
 
 h3 {
+  color: rgb(130, 130, 171);
+  font-family: 'Konkhmer Sleokchher', cursive;
+  font-weight: 350;
+  font-size: 30px;
+}
+
+span{
+  color: rgb(90, 90, 122);
   font-family: 'Konkhmer Sleokchher', cursive;
   font-weight: 300;
+  font-size: 25px;
 }
 
 p {
