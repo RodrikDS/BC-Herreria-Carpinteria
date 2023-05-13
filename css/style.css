@@ -2,10 +2,10 @@
 
 body{
   background-image: url("../img/fondo-4.jfif");
-  background-size: cover;
-  
+  background-size: cover;  
     
 }
+
 .mi-titulo{
   color:rgb(97, 119, 142);
   text-shadow: 2px 2px #b6d5e1;
@@ -39,12 +39,13 @@ p {
   font-family: 'Konkhmer Sleokchher', cursive;
   font-weight: 300;
   font-size: 15px;
-  margin-left: 1%;
+  padding-top: 5px;
+  margin-left: 0;
   margin-right: 0;
 }
 
 .navbar-brand img {
-height: 64px;
+  height: 64px;
 }
 
 .carousel-inner img {
@@ -136,6 +137,7 @@ img {
     transition: transform 0.3s ease;
     
   }
+
   .item:hover img {
     transform: scale(1.1);
   }
@@ -203,7 +205,6 @@ img {
   }
 
   .residencias{
-    display: flex;
     justify-content: center;
     border-style: inset black;
     padding-left: 10%;
@@ -239,6 +240,11 @@ img {
   .tendencias{
     margin-top: 40px;
     margin-bottom: 10px;
+  }
+
+  .my-btn{
+    text-decoration:none;
+
   }
   
   .btn{
@@ -277,8 +283,7 @@ img {
     text-align:left;
     font-size: 15px;
     color: #484444;
-    padding: 15px;
-    
+    padding: 15px;   
 
   }
 
