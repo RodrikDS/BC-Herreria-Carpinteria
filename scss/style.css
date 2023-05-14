@@ -48,7 +48,7 @@ p {
 
 .carousel-inner img {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   height: 70vh;
   width: 100%;
   justify-content: center;
@@ -278,6 +278,4 @@ img {
   font-size: 15px;
   color: #484444;
   padding: 15px;
-} 
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
