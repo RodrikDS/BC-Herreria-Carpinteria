@@ -5,13 +5,37 @@ body {
 }
 
 .mi-titulo {
-  color: rgb(97, 119, 142);
+  color: rgb(244, 73, 5);
   text-shadow: 2px 2px #b6d5e1;
   font-family: "Konkhmer Sleokchher", cursive;
   font-weight: 500;
 }
 
 h2 {
+  color: rgb(79, 79, 103);
+  text-shadow: 2px 2px #d8c590;
+  font-family: "Konkhmer Sleokchher", cursive;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+/*aca estoy usando mixin para crear dos botones*/
+.primary-button, .button-f {
+  background-color: #1c1818;
+  color: white;
+}
+
+.secondary-button {
+  background-color: #0f3ecd;
+  color: white;
+}
+
+/*aca estoy usando extend para crear otro boton, el del formulario*/
+.button-f {
+  background-color: rgb(42, 84, 84);
+}
+
+.titulos {
   color: rgb(79, 79, 103);
   text-shadow: 2px 2px #d8c590;
   font-family: "Konkhmer Sleokchher", cursive;
@@ -72,8 +96,8 @@ img {
 .text-overlay {
   font-size: 30px;
   font-family: "Konkhmer Sleokchher", cursive;
-  font-weight: 400px;
-  color: #0d0c0c;
+  font-weight: 400;
+  color: rgb(23, 15, 15);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -109,18 +133,15 @@ img {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
 }
-
-.item {
+.galeria-herreria .item {
   overflow: hidden;
 }
-
-.item img {
+.galeria-herreria .item img {
   max-width: 100%;
   height: 100%;
   transition: transform 0.3s ease;
 }
-
-.item:hover img {
+.galeria-herreria .item:hover img {
   transform: scale(1.3);
 }
 
