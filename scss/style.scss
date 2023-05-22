@@ -35,7 +35,7 @@ h2 {
 /*aca estoy usando extend para crear otro boton, el del formulario*/
 .button-f{
     @extend .primary-button;
-    background-color: rgb(38, 143, 108);
+    background-color: rgb(108, 179, 162);
 }
 
 .titulos {
@@ -215,8 +215,7 @@ img {
      margin-left: 35px;
   }
 
-.beto-herreria{ 
-    
+.beto-herreria{    
     color:$color-h3;
     font-size: 25px;
     font-weight: 700; 
@@ -232,6 +231,16 @@ img {
   }
 
 .beto-productos{
+    border-style: inset black;
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+
+.carpinteria-p{
     border-style: inset black;
     padding-left: 20%;
     padding-right: 10%;
