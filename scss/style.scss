@@ -10,7 +10,7 @@ body{
 }
 
 .mi-titulo{
-  color:rgb(36, 107, 214);
+  color:rgb(63, 132, 137);
   text-shadow: 2px 2px #b6d5e1;
   font-family: $font-f;
   font-weight: 500;
@@ -20,7 +20,7 @@ h2 {
   color:$color-h2;
   text-shadow: 2px 2px #d8c590;
   font-family:$font-f;
-  font-weight: $font-w2;
+  font-weight: $font-w;
   font-size: $font-s;
 }
 
@@ -35,7 +35,7 @@ h2 {
 /*aca estoy usando extend para crear otro boton, el del formulario*/
 .button-f{
     @extend .primary-button;
-    background-color: rgb(81, 151, 151);
+    background-color: rgb(38, 143, 108);
 }
 
 .titulos {
@@ -215,7 +215,11 @@ img {
      margin-left: 35px;
   }
 
-.beto-herreria{  
+.beto-herreria{ 
+    
+    color:$color-h3;
+    font-size: 25px;
+    font-weight: 700; 
     border-style: inset black;
     padding-left: 40%;
     padding-right: 10%;
@@ -224,8 +228,7 @@ img {
     margin-bottom: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-top: 10px;
-    font-family: $font-f;    
+    margin-top: 10px;      
   }
 
 .beto-productos{
