@@ -245,7 +245,7 @@ img {
 
 @media (max-width: 768px) {
   .img-beto {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   }
 }
 .img {

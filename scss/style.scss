@@ -257,12 +257,12 @@ img {
     margin-bottom: 30px;
     margin-top: 30px;
   } 
-
-  @media (max-width: 768px) {
+  
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
     .img-beto {
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
-  }
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }    
+}
   
   .img {
     max-width: 100%;
